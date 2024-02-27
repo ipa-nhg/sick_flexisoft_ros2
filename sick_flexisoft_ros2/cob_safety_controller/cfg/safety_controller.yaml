@@ -1,0 +1,83 @@
+port:
+  type: str
+  description: "Port of flexisoft."
+  default: "empty"
+
+host:
+  type: str
+  description: "Host address of flexisoft."
+  default: "empty"
+
+threshold_linear_slow:
+  type: double
+  description: "Threshold for enabling mid-range safety field."
+  default: 0.0
+  min: -100
+  max: 100
+
+threshold_linear_fast:
+  type: double
+  description: "Threshold for enabling big safety field."
+  default: 0.0
+  min: -100
+  max: 100
+
+threshold_angular_fast:
+  type: double
+  description: "Threshold for enabling big rotational safety field."
+  default: 0.0
+  min: -100
+  max: 100
+
+front_xml:
+  type: str
+  description: "Path to file for safety field definition for front laser."
+  default: ""
+
+left_xml:
+  type: str
+  description: "Path to file for safety field definition for left laser."
+  default: ""
+
+right_xml:
+  type: str
+  description: "Path to file for safety field definition for right laser."
+  default: ""
+
+marker_type:
+  type: int
+  description: "Type for visualization with interactive marker."
+  default: 0
+  min: -100
+  max: 100
+
+scale_x:
+  type: double
+  description: "Scale in x for visualization with interactive marker."
+  default: 0
+  min: -100
+  max: 100
+
+scale_y:
+  type: double
+  description: "Scale in y for visualization with interactive marker."
+  default: 0
+  min: -100
+  max: 100
+
+scale_z:
+  type: double
+  description: "Scale in z for visualization with interactive marker."
+  default: 0
+  min: -100
+  max: 100
+
+odometry_timeout:
+  type: double
+  description: "Timeout for receiving odometry topic."
+  default: 0.0
+
+state_is_valid_timeout:
+  type: double
+  description: "Timeout for state_is_valid topic."
+  default: 0.0

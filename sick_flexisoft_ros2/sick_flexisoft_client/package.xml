@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sick_flexisoft_client</name>
+  <version>0.1.7</version>
+  <description>The sick_flexisoft_client package provides a communication interface to SICK Flexisoft.</description>
+  <maintainer email="mdl@ipa.fhg.de">Mathias Luedtke</maintainer>
+  <license>LGPL</license>
+  
+  <!-- Remove the author tag as it's not used in ROS 2 -->
+  
+  <build_depend>ament_cmake</build_depend>
+  <build_depend>rclcpp</build_depend>
+  
+  <!-- Replace the buildtool_depend tag with buildtool_export_depend as catkin is not used in ROS 2 -->
+  <buildtool_export_depend>ament_cmake</buildtool_export_depend>
+  
+  <!-- Remove the depend tag as it's not used in ROS 2 -->
+</package>

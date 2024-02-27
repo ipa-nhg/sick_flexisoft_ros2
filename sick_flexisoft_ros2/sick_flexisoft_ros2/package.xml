@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>sick_flexisoft</name>
+  <version>0.1.7</version>
+  <description>Metapackage for SICK Flexisoft driver.</description>
+
+  <maintainer email="fmw@ipa-fhg.de">Florian Weisshardt</maintainer>
+  <maintainer email="nhg@ipa.fhg.de">Nadia Hammoudeh Garcia</maintainer>
+  <author email="mdl@ipa.fhg.de">Mathias Luedtke</author>
+
+  <license>LGPL</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>cob_safety_controller</exec_depend>
+  <exec_depend>sick_flexisoft_client</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
